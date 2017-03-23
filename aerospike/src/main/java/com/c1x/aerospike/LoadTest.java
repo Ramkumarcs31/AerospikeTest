@@ -15,7 +15,7 @@ public class LoadTest {
 
     Console console = new Console();
 
-    private void runMultiBinTest(AerospikeClient client, Parameters params) throws Exception {
+    public void runMultiBinTest(AerospikeClient client, Parameters params) throws Exception {
         Key key = new Key(params.namespace, params.set, "putgetkey");
         Bin bin1 = new Bin("bin1", "value1");
         Bin bin2 = new Bin("bin2", "value2");

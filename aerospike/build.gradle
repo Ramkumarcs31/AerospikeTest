@@ -7,7 +7,7 @@ apply plugin:'groovy'
 
 sourceCompatibility = 1.5
 
-//mainClassName = 'com.c1x.aerospike.LoadTest'
+mainClassName = 'com.c1x.aerospike.TestMain'
 
 // Set source directory
 sourceSets {

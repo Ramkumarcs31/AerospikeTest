@@ -18,6 +18,7 @@ import com.aerospike.client.policy.TlsPolicy;
 import com.aerospike.client.util.Util;
 
 import com.source.aerospike.Parameters;
+import com.c1x.aerospike.LoadTest;
 
 
 /**
@@ -92,6 +93,8 @@ public class TestMain {
             } finally {
                 client.close();
             }
+            LoadTest loadTest = new LoadTest();
+            loadTest.runMultiBinTest(client,params);
         }
         catch (Exception ex) {
             ex.printStackTrace();
