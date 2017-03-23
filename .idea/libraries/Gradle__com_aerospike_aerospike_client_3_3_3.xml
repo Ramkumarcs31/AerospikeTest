@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aerospike:aerospike-client:3.3.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aerospike/aerospike-client/3.3.3/f48fafd1a85860e2359f1b5af3c6a16e3fd0132f/aerospike-client-3.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aerospike/aerospike-client/3.3.3/fe3b3684f03859a06203d5b2960068e71c2be238/aerospike-client-3.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

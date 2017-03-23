@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":aerospike:main" external.linked.project.path="$MODULE_DIR$/../../../aerospike" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="test" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../../aerospike/build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../aerospike/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../aerospike/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../aerospike/src/main/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../aerospike/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../aerospike/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.aerospike:aerospike-client:3.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: commons-cli:commons-cli:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.gnu:gnu-crypto:2.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.luaj:luaj-jse:3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.mindrot:jbcrypt:0.3m" level="project" />
+  </component>
+</module>
