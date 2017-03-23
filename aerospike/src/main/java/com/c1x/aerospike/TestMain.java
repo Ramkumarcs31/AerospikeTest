@@ -89,12 +89,11 @@ public class TestMain {
 
             try {
                 params.setServerSpecific(client);
-
+                LoadTest loadTest = new LoadTest();
+                loadTest.runMultiBinTest(client,params);
             } finally {
                 client.close();
             }
-            LoadTest loadTest = new LoadTest();
-            loadTest.runMultiBinTest(client,params);
         }
         catch (Exception ex) {
             ex.printStackTrace();
